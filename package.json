@@ -1,0 +1,24 @@
+{
+  "name": "slacksongsniffer",
+  "version": "1.0.0",
+  "description": "Listens on spotify urls on a slack channel and posts it to a shared Spotify playlist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-ThatSamu:ThatSamu/slacksongsniffer.git"
+  },
+  "keywords": [
+    "slack",
+    "spotify",
+    "playlist"
+  ],
+  "author": "Samu Aapa",
+  "license": "ISC",
+  "dependencies": {
+    "slackbots": "0.3.0",
+    "spotify-web-api-node": "2.3.6"
+  }
+}
