@@ -4,7 +4,8 @@
   "description": "Listens on spotify urls on a slack channel and posts it to a shared Spotify playlist.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
