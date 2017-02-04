@@ -8,8 +8,8 @@ var playlistOwner = process.env.PLAYLIST_OWNER;
 
 var snifferbot = new SnifferBot({
     token: token,
-    playlistID : playlistID,
-    playlistOwner = playlistOwner
+    playlistID: playlistID,
+    playlistOwner: playlistOwner
 });
 
 snifferbot.run();
